@@ -25,7 +25,6 @@ let opcao = Number (
 );
 
 console.log(opcao);
-
 switch(opcao){
     case 1:
         console.log("Falando com o atendente");

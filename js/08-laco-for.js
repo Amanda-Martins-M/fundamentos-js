@@ -24,6 +24,8 @@ for(let i = 1; i < 11; i++){
     console.log("Bom dia!", i);
 }
 
+console.log("--------------------------------");
+
 for( let index = 0; index < 11; index++){
     if(index === 10) {
         console.log("Feliz anão novo!");
@@ -32,8 +34,30 @@ for( let index = 0; index < 11; index++){
     }
 }
 
+console.log("--------------------------------");
+
 let soma = 0;
 
 for(let i = 5; i <= 10; i++){
     console.log("A soma é:", (soma += i));
 }
+
+console.log("--------------------------------");
+
+for(let bala = 1; bala <= 3; bala ++){
+console.log("Comi a bala: ", bala);
+}
+
+console.log("--------------------------------");
+
+//index = i - 1;
+for(let index = 10; index >= 0; index--){
+    if (index === 0){
+        console.log("Feliz natal!");
+    } else{
+    console.log("Contagem regressiva: ", index);
+}
+}
+
+console.log("--------------------------------");
+

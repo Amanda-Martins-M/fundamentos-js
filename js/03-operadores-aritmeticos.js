@@ -32,6 +32,6 @@ let divisao = x / y;
 console.log(divisao);
 alert(`O resultado da divisão é: ${divisao}`);
 
-// Resto da divisão (%) - Conhecido como operador de módulo. Geralmente retorna o resto de uma divisão dentre dois números
+// Resto da divisão (%) - Conhecido como operador de módulo. Geralmente retorna o resto de uma divisão entre dois números
 let restoDivisao = x % y;
 console.log(restoDivisao);

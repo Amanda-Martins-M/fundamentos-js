@@ -35,8 +35,32 @@ const produto = {
     nome: "Mouse gamer Logitech",
     preco: 599.79,
     emEstoque: true,
+    quantidade: 55,
 };
 
 for(let info in produto) {
-    console.log(info);
+    console.log("----------");
+
+
+console.log(info);
+console.log(produto[info]);
 }
+
+// objeto com métodos
+
+const pessoaB = {
+    nome: "Ana",
+    idade: 20,
+    status: true,
+    falar() {
+        return "Olá, eu sou a Ana!";
+    },
+};
+
+console.log(pessoaB.falar());
+
+console.log(`${pessoaB.falar()}, tenho ${pessoaB.idade} anos.`);
+
+
+ 
+

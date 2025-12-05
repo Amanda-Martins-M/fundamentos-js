@@ -1,6 +1,6 @@
 // Os objetos são estruturas que armazenam dados e funcionalidades, como por exemplo, propriedades e métodos, em partes de CHAVE e VALOR.
 
-// Propriedades - características do objeto
+// Propriedades - características do objeto - a ordem não importa
 
 // Os objetos servem para representar coisas do mundo real ou estruturas de dados organizadas.
 
@@ -61,6 +61,18 @@ console.log(pessoaB.falar());
 
 console.log(`${pessoaB.falar()}, tenho ${pessoaB.idade} anos.`);
 
+// objetos aninhados
+
+const localidade = {
+    rua: "Rua logo ali",
+    cep: "083740234",
+    coordenadas: {
+        latitude: "-12.1230123",
+        longitude: "-12.1203871",
+    },
+};
+
+localidade.coordenadas.latitude;
 
  
 
